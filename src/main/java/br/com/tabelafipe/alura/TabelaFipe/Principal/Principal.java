@@ -111,6 +111,6 @@ public class Principal {
             System.out.println("\nTodos os veículos filtrados com avaliações por ano: ");
             veiculos.forEach(System.out::println);
 
-        } while (!opcao.equals("4"));
+        } while (!opcao.equals("4")); // utilizei do-while para não ter o return 0
     }
 }
